@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing:inherit;
+  }
+
+  .boss img{
+ float: right; 
+ border-radius: 6px; 
+  }
+
+  .boss h3{
+padding-left: 73%;
+font-size: 20px;
+padding-top: 1.8%;
+font-family: 'Times New Roman';
+font-style: italic;
+text-decoration: none;
+  }
+  
+  
+  .column {
+    float:left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  .head h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(219, 214, 248);
+    background-color: rgb(202, 39, 39);
+   font-family:'Times New Roman';
+  }
+  .column1 {
+    float:right;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+
+  .column3{
+    width: 100%;
+    
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: rgb(201, 214, 219);
+    border-radius: 20px;
+  }
+  .card img{
+    border-radius: 10px;
+    
+  }
+
+  .about-section {
+    padding: 80px;
+    text-align: center;
+    background-color: #1541a0;
+    color: white;
+  }
+  .about-section h1{
+  padding-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 200%;
+  }
+  
+  .about-section P{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 30PX;
+  }
+  
+  .container {
+    padding: 0 16px;
+    font-family: 'Times New Roman';
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container P{
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  
+  
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

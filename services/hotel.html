@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+    <link rel="stylesheet" href="hotel.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h2>EMERGENCY HOTEL SERVICES</h2>
+            <p>BOOK THE BEST HOTEL NEAREST TO YOUR LOCATION,AVAILABLE ALL THE FECILITIES!! </p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="hotel.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form method="post" id="hotelform">
+                    <div class="alert">
+                        Your request has been successfully submitted
+                    </div>
+                    <label for="fullname">FULL NAME</label>
+                    <input type="text" id="fullname" name="FULLNAME" placeholder="Your full  name..">
+                    <label for="idproof">ID PROOF</label>
+                    <input type="text" id="idproof" name="IDPROOF" placeholder="proof..">
+                    <label for="mobnum">MOBILE NUMBER</label>
+                    <input type="text" id="number" name="MOBILENUMBER" placeholder="Your number..">
+                    <label for="room">BED ROOMS</label>
+
+                    <select name="BEDROOM" id="bedroom" >
+                        <option selected></option>
+                        <option>SINGLE BEDROOM</option>
+                        <option>DOUBLE BEDROOM</option>
+                        
+                    </select>
+                    <label for="days">NUMBER OF DAYS</label>
+
+                    <select name="NUMBER OF DAYS" id="days">
+                        <option selected></option>
+                        <option>1 DAY</option>
+                        <option>WEEK</option>
+                        <option>MONTH</option>
+                        
+                    </select>
+             <br>
+             <br>
+             <input type="submit" name="submit" value="Submit"/>
+            
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./hotel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+          <h2>CONTACT US</h2>
+          <p>WE'RE HERE TO HELP AND ANSWER ANY QUESTION YOU MIGHT HAVE.WE LOOK FORWORD TO HEARING FROM YOU!!</p>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="LOGO.png" style="width:100%">
+          </div>
+          <div class="column">
+            <form method="post" id="contactform">
+              <div class="alert">
+                Your request has been successfully submitted
+            </div>
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname" required placeholder="Your name..">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname" name="lastname" required placeholder="Your last name..">
+              <label for="text">Email ID</label>
+              <input type="text" id="emailid" name="emailid" placeholder="Your mail..">
+              
+              <label for="subject">Subject</label>
+              <textarea  name="subject" id="subject" placeholder="Write something.." style="height:170px"></textarea>
+              <input type="submit" name="submit" value="Submit"/>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+      <script src="./contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fuel</title>
+    <link rel="stylesheet" href="ambulance.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <h2>EMERGENCY FUEL SERVICES</h2>
+            <p> WE'RE HERE FOR YOU TO GET FUEL AT YOUR LOCATION, ANY TIME, ANY WHERE.PLEASE LEAVE YOUR MESSAGE !!</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="petrol.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form method="post" id="fuelform">
+
+                    <div class="alert">
+                        Your request has been successfully submitted
+                    </div>
+                    <label for="fullname">FULL NAME</label>
+                    <input type="text" id="fullname" name="FULLNAME" placeholder="Your full  name..">
+                    <label for="location">LOCATION</label>
+                    <input type="text" id="location" name="LOCATION" placeholder="Your location..">
+                    <label for="mobnum">MOBILE NUMBER</label>
+                    <input type="text" id="number" name="MOBILE NUMBER" placeholder="Your number..">
+                    <label for="fueltype">FUEL TYPE</label>
+
+                    <select name="FUELTYPE" id="fueltype" >
+                        <option selected>....</option>
+                        <option value="diesel">DIESEL</option>
+                        <option value="petrol">PETROL</option>
+        
+                    </select>
+                    <label for="ltr">LITER</label>
+                    <input type="number" id="liter" name="LITER"  min="1" max="15" placeholder="ltr">
+                    <label>
+                        <br>
+                        <br>
+
+                        EMERGENCY
+                    </label> <br><br>
+
+                    <select name="EMERGENCY" id="emergency">
+                        <option selected>....</option>
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+                    </select>
+<br>
+
+                    <input type="submit" name="submit" value="Submit"/>
+                
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./fuel.js"></script>
+</body>
+
+</html>

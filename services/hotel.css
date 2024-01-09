@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+  }
+  .alert{
+    text-align: center;
+    display: none;
+  }
+  .head h2{
+    text-align: center;
+    font-family: 'Times New Roman';
+    background-color: rgb(126, 154, 216);
+    font-weight: bold;
+    font-size: 200%;
+  }
+  .head p{
+    text-align: center;
+    font-weight: bold;
+  }
+ 
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+
+  input[type=reset] {
+    background-color:rgb(153, 145, 224);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s ease;
+  }
+  
+  input[type=reset]:hover {
+    background-color: #070807;
+  }
+  input[type=submit] {
+    background-color:rgb(153, 145, 224);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.3s ease;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #070807;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: rgb(233, 218, 216);
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }

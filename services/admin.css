@@ -1,0 +1,37 @@
+
+ 
+.column {
+    float:left;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    background-color: rgb(201, 214, 219);
+    border-radius: 20px;
+    align-items: center;
+  }
+  .card img{
+    border-radius: 10px;
+    align-items: center;
+    
+  }
+   .btn{
+       background-color: orange;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+text-decoration: none;
+border-radius: 30px;
+font-size: 350%;
+font-weight: bold;
+font-style: italic;
+
+   }
+
+
+
+   
+    
+   
